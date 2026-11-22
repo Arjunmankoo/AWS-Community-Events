@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS events (
+ id VARCHAR(32) PRIMARY KEY, title VARCHAR(120) NOT NULL,
+ description TEXT NOT NULL, location VARCHAR(160) NOT NULL,
+ starts_at VARCHAR(16) NOT NULL, image_key VARCHAR(100),
+ created_at VARCHAR(32) NOT NULL);
